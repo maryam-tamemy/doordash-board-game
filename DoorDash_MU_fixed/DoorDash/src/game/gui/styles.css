@@ -1,0 +1,25 @@
+/* Cinematic Minimalism stylesheet. Most styling is inline; this file
+   reserves global text + scrollbar defaults for the dark theme. */
+
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    -fx-background-color: #1a1a2e;
+}
+
+.label {
+    -fx-text-fill: #e8f8ff;
+}
+
+.scroll-pane, .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+.scroll-bar .thumb {
+    -fx-background-color: rgba(34,214,255,0.35);
+    -fx-background-radius: 4;
+}
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
